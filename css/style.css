@@ -1,0 +1,24 @@
+.text1 h1 {
+color: #000;
+font-family: Helvetica;
+font-size: 49px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text1 {
+    width: 371px;
+    height: 112px;
+    margin: 84px 144px 925px 57px;
+}
+.container {
+    max-width: 1152px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container forms {
+    width: 700px;
+    height: 300px;
+    border: 5px solid black;
+}
+
