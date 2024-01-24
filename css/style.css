@@ -94,6 +94,9 @@ input[type="submit"] {
     line-height: normal;
     border: none;
 }
+
+
+
 .sect2 {
     display: flex;
     justify-content: space-around;
@@ -139,11 +142,135 @@ input[type="submit"] {
     margin: 61px;
 }
 .photos {
+    max-width: 1300px;
     display: flex;
     justify-content: space-between;
 }
+
+
+
 footer {
     max-width: 1440px;
     height: 372px;
     background-color: #000000;
+    padding-top: 63px;
+    display: flex;
+   
+}
+.s4 {
+    max-width: 1318px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 27px;
+    margin-right: 191px;
+}
+.info h1 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p {
+    color: #99999A;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.icons2 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.twitter {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #edeef6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+}
+.useful {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.useful h1 {
+    width: 108px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ategs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 5px;
+}
+.ategs a {
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.contact h1 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cont {
+    width: 213px;
+    display: flex;
+    gap: 14px;
+}
+.cont a {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
